@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImg from "../utils/Images/Logo.png";
+import FitnessLogo from "../utils/Images/Fitness-logo.jpg";
 import { Link as LinkR, NavLink } from "react-router-dom";
 import { MenuRounded } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
@@ -137,7 +137,7 @@ const Navbar = ({ currentUser }) => {
           <MenuRounded sx={{ color: "inherit" }} />
         </Mobileicon>
         <NavLogo to="/">
-          <Logo src={LogoImg} />
+          <Logo src={FitnessLogo} />
           Fittrack
         </NavLogo>
 

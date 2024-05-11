@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImage from "../utils/Images/Logo.png";
-import AuthImage from "../utils/Images/AuthImage.jpg";
+import FitnessLogo from "../utils/Images/Fitness-logo.jpg";
+import FitnessDash from "../utils/Images/Fitness-dashboard.jpg";
 import SignIn from "../components/SignIn";
 import SignUp from "../components/SignUp";
 
@@ -67,8 +67,8 @@ const Authentication = () => {
   return (
     <Container>
       <Left>
-        <Logo src={LogoImage} />
-        <Image src={AuthImage} />
+        <Logo src={FitnessLogo} />
+        <Image src={FitnessDash} />
       </Left>
       <Right>
         {!login ? (
