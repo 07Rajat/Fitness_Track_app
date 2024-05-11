@@ -24,6 +24,14 @@ const AboutUs = () => {
         <li>Performance Analysis: Gain insights into your performance and identify areas for improvement.</li>
         <li>User-Friendly Interface: Enjoy a seamless and intuitive experience.</li>
       </ul>
+      <h2>About Fitness Free App</h2>
+      <ul>
+        <li>Our Mission</li>
+        <li>Features</li>
+        <li>Why Choose Us</li>
+        <li>Testimonials</li>
+        <li>Contact Us</li>
+      </ul>
       <p>
         Join the Fitness Tracker community and start your journey to a healthier,
         happier you today! Download the app now and experience the difference.
